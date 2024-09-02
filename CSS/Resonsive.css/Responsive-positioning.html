@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            overflow-x: hidden;
+            width: 100vw;
+        }       
+        .container{
+            width: 80%;
+            max-width: 700PX;
+            height: 100vh;
+            background-color: yellow;
+            margin-inline: auto;
+            position: relative;
+        }
+        @media screen and (max-width: 450px) {
+            .container{
+                width: 90vw;
+            }
+        }
+        .box{
+            height: 100px;
+            width: 100px;            
+        }
+        .blue-box{
+            background-color: blue;
+            position: absolute;
+            top: 0px;
+            right: 0;
+        }
+        .brown-box{
+            background-color: brown;
+        }
+        .green-box{
+            background-color: green;
+            position: sticky;
+            top: 50px;
+            left: 400px;
+            
+        }
+        .purple-box{
+            background-color: purple;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+        .orange-box{
+            background-color: orange;            
+            bottom: 10px;
+            position: relative;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>We are Learning about Positioning</h1>
+    <section class="container">
+        <div class="box blue-box"></div>
+        <div class="box brown-box"></div>
+        <div class="box orange-box"></div>
+        
+        <div class="box purple-box"></div>
+    </section>
+    <div class="box green-box"></div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam error nobis ipsa delectus corporis ab facilis aspernatur assumenda illo perferendis dolor possimus, fugiat, suscipit adipisci enim consequuntur voluptatem dolorem exercitationem at quod amet nisi minus autem tenetur? Delectus quisquam, veniam vero quidem accusamus obcaecati porro illo tempora. Ratione eaque impedit quidem ad placeat veniam! Et nesciunt odit nemo porro illo placeat officiis ipsam quidem ratione dolor exercitationem dicta vitae dolorem rchitecto natus. Nulla fuga, ipsa veritatis, nihil inventore velit qui a eum perspiciatis llat magni exercitationem laudantium aspernatur maiores similique. Quis saepe vero et rerum debitis dolore nulla quae similique laborum aliquid sunt, beatae numquam repetempore animi hic ex consequuntur delectus voluptate unde in! Suscipit accusamus a quis 
+       inventore fugit quia voluptatum odio dignissimos tempora, ratione rem unde?</p>
+</body>
+</html>
